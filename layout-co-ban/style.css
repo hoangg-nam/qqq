@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+#main {
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+  background-color: white;
+}
+
+#head {
+  height: 100px;
+  background-color: #286090;
+  color: white;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+#head-link {
+  padding: 15px;
+  background-color: #333;
+  margin-bottom: 10px;
+}
+
+#head-link a {
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+#head-link a:hover {
+  color: yellow;
+  font-weight: bold;
+}
+
+#left {
+  width: 20%;
+  min-height: 400px;
+  float: left;
+  background-color: #e8f1f8;
+}
+
+#left a {
+  color: #286090;
+  text-decoration: none;
+}
+
+#content {
+  width: 55%;
+  min-height: 400px;
+  float: left;
+  margin-left: 1%;
+}
+
+#right {
+  width: 22%;
+  min-height: 400px;
+  float: right;
+}
+
+.box {
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+}
+
+.box h2,
+.box h3 {
+  color: #286090;
+  margin-top: 0;
+}
+
+.photo {
+  padding: 35px 10px;
+  text-align: center;
+  color: white;
+  background-color: #5b9dbd;
+}
+
+.clear {
+  clear: both;
+}
+
+#footer {
+  padding: 20px;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  background-color: #333;
+}
+
+@media (max-width: 650px) {
+  body {
+    padding: 5px;
+  }
+
+  #left,
+  #content,
+  #right {
+    float: none;
+    width: auto;
+    margin: 10px;
+    min-height: 0;
+  }
+
+  #head-link a {
+    display: inline-block;
+    margin: 5px;
+  }
+}
